@@ -13,7 +13,7 @@ bucket = "out"
 entry-point = "./"
 
 routes = [
-  { pattern = "status.mps-emi.com", custom_domain = true }
+  { pattern: "status.mps-emi.com", custom_domain: true }
 ]
 
 # uncomment and adjust following if you are not using GitHub Actions
