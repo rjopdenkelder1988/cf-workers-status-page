@@ -12,12 +12,8 @@ crons = ["* * * * *"]
 bucket = "out"
 entry-point = "./"
 
-routes = [
-  { pattern: "status.mps-emi.com", custom_domain: true }
-]
-
 # uncomment and adjust following if you are not using GitHub Actions
 #[env.production]
 #kv-namespaces = [{binding="KV_STATUS_PAGE", id="xxxx", preview_id=""}]
 #zone_id="xxx"
-#route="xxx"
+route="status.mps-emi.com"
