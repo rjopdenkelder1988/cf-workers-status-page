@@ -16,6 +16,3 @@ entry-point = "./"
 #[env.production]
 #kv-namespaces = [{binding="KV_STATUS_PAGE", id="xxxx", preview_id=""}]
 #zone_id="xxx"
-route = [
-  { pattern = "status.mps-emi.com", custom_domain = true }
-]
