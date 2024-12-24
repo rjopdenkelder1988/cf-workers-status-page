@@ -43,7 +43,7 @@ monitors:
   - id: openbanking-mps-emi-com
     name: openbanking.mps-emi.com
     description: ''
-    url: 'https://openbanking.mps-emi.com/swagger/index.html'
+    url: 'https://open-banking.mps-emi.com/v1/health-check'
     method: GET
     expectStatus: 200
     linkable: false
