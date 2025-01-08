@@ -16,7 +16,7 @@ settings:
 
 monitors:
   - id: my-mps-emi-com
-    name: my.mps-emi.com
+    name: Portal
     description: ''
     url: 'https://my.mps-emi.com/'
     method: GET
@@ -25,7 +25,7 @@ monitors:
     linkable: true
 
   - id: terminal-mps-emi-com
-    name: terminal.mps-emi.com
+    name: POS
     description: ''
     url: 'https://terminal.mps-emi.com/health-check'
     method: GET
