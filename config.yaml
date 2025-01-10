@@ -33,7 +33,7 @@ monitors:
     linkable: false
 
   - id: app-mps-emi-com
-    name: app.mps-emi.com
+    name: App
     description: ''
     url: 'https://app.mps-emi.com/health-check'
     method: GET
@@ -41,7 +41,7 @@ monitors:
     linkable: false
 
   - id: openbanking-mps-emi-com
-    name: openbanking.mps-emi.com
+    name: Openbanking
     description: ''
     url: 'https://open-banking.mps-emi.com/v1/health-check'
     method: GET
